@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B33257A25D2621A007B4DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B33257925D2621A007B4DBF /* Assets.xcassets */; };
+		6B33257D25D2621A007B4DBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B33257C25D2621A007B4DBF /* Preview Assets.xcassets */; };
+		6B3325B625D26578007B4DBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3325B025D26578007B4DBF /* SceneDelegate.swift */; };
+		6B3325B725D26578007B4DBF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3325B125D26578007B4DBF /* Extensions.swift */; };
+		6B3325BA25D26578007B4DBF /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3325B425D26578007B4DBF /* AudioPlayer.swift */; };
+		6B3325BB25D26578007B4DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B3325B525D26578007B4DBF /* AppDelegate.swift */; };
+		6BD3C5C125D2671500EAC727 /* PupPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD3C5C025D2671500EAC727 /* PupPadView.swift */; };
+		6BD3C5C425D2671700EAC727 /* PupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD3C5C325D2671700EAC727 /* PupView.swift */; };
+		6BD3C5DB25D2676900EAC727 /* Ryder3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5CA25D2676800EAC727 /* Ryder3.m4a */; };
+		6BD3C5DC25D2676900EAC727 /* Rubble1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5CB25D2676800EAC727 /* Rubble1.m4a */; };
+		6BD3C5DD25D2676900EAC727 /* Rubble2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5CC25D2676800EAC727 /* Rubble2.m4a */; };
+		6BD3C5DE25D2676900EAC727 /* Skye1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5CD25D2676800EAC727 /* Skye1.m4a */; };
+		6BD3C5DF25D2676900EAC727 /* Zuma2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5CE25D2676800EAC727 /* Zuma2.m4a */; };
+		6BD3C5E025D2676900EAC727 /* Chase2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5CF25D2676800EAC727 /* Chase2.m4a */; };
+		6BD3C5E125D2676900EAC727 /* Marshall1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5D025D2676800EAC727 /* Marshall1.m4a */; };
+		6BD3C5E225D2676900EAC727 /* Ryder1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5D125D2676800EAC727 /* Ryder1.m4a */; };
+		6BD3C5E325D2676900EAC727 /* Rocky2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5D225D2676800EAC727 /* Rocky2.m4a */; };
+		6BD3C5E425D2676900EAC727 /* Rocky1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5D325D2676800EAC727 /* Rocky1.m4a */; };
+		6BD3C5E525D2676900EAC727 /* Ryder5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5D425D2676800EAC727 /* Ryder5.m4a */; };
+		6BD3C5E625D2676900EAC727 /* Ryder2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5D525D2676800EAC727 /* Ryder2.m4a */; };
+		6BD3C5E725D2676900EAC727 /* Zuma1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5D625D2676900EAC727 /* Zuma1.m4a */; };
+		6BD3C5E825D2676900EAC727 /* Marshall2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5D725D2676900EAC727 /* Marshall2.m4a */; };
+		6BD3C5E925D2676900EAC727 /* Skye2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5D825D2676900EAC727 /* Skye2.m4a */; };
+		6BD3C5EA25D2676900EAC727 /* Ryder4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5D925D2676900EAC727 /* Ryder4.m4a */; };
+		6BD3C5EB25D2676900EAC727 /* Chase1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6BD3C5DA25D2676900EAC727 /* Chase1.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B33257025D26219007B4DBF /* Simply Pup Pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simply Pup Pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B33257925D2621A007B4DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B33257C25D2621A007B4DBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B33258125D2621A007B4DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3325B025D26578007B4DBF /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B3325B125D26578007B4DBF /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6B3325B425D26578007B4DBF /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		6B3325B525D26578007B4DBF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BD3C5C025D2671500EAC727 /* PupPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PupPadView.swift; sourceTree = "<group>"; };
+		6BD3C5C325D2671700EAC727 /* PupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PupView.swift; sourceTree = "<group>"; };
+		6BD3C5CA25D2676800EAC727 /* Ryder3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ryder3.m4a; sourceTree = "<group>"; };
+		6BD3C5CB25D2676800EAC727 /* Rubble1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rubble1.m4a; sourceTree = "<group>"; };
+		6BD3C5CC25D2676800EAC727 /* Rubble2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rubble2.m4a; sourceTree = "<group>"; };
+		6BD3C5CD25D2676800EAC727 /* Skye1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skye1.m4a; sourceTree = "<group>"; };
+		6BD3C5CE25D2676800EAC727 /* Zuma2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zuma2.m4a; sourceTree = "<group>"; };
+		6BD3C5CF25D2676800EAC727 /* Chase2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chase2.m4a; sourceTree = "<group>"; };
+		6BD3C5D025D2676800EAC727 /* Marshall1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marshall1.m4a; sourceTree = "<group>"; };
+		6BD3C5D125D2676800EAC727 /* Ryder1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ryder1.m4a; sourceTree = "<group>"; };
+		6BD3C5D225D2676800EAC727 /* Rocky2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rocky2.m4a; sourceTree = "<group>"; };
+		6BD3C5D325D2676800EAC727 /* Rocky1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rocky1.m4a; sourceTree = "<group>"; };
+		6BD3C5D425D2676800EAC727 /* Ryder5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ryder5.m4a; sourceTree = "<group>"; };
+		6BD3C5D525D2676800EAC727 /* Ryder2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ryder2.m4a; sourceTree = "<group>"; };
+		6BD3C5D625D2676900EAC727 /* Zuma1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zuma1.m4a; sourceTree = "<group>"; };
+		6BD3C5D725D2676900EAC727 /* Marshall2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Marshall2.m4a; sourceTree = "<group>"; };
+		6BD3C5D825D2676900EAC727 /* Skye2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skye2.m4a; sourceTree = "<group>"; };
+		6BD3C5D925D2676900EAC727 /* Ryder4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ryder4.m4a; sourceTree = "<group>"; };
+		6BD3C5DA25D2676900EAC727 /* Chase1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chase1.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B33256D25D26219007B4DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B33256725D26219007B4DBF = {
+			isa = PBXGroup;
+			children = (
+				6B33257225D26219007B4DBF /* Simply Pup Pad */,
+				6B33257125D26219007B4DBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B33257125D26219007B4DBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B33257025D26219007B4DBF /* Simply Pup Pad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B33257225D26219007B4DBF /* Simply Pup Pad */ = {
+			isa = PBXGroup;
+			children = (
+				6BD3C5C925D2675D00EAC727 /* Sounds */,
+				6BD3C5C725D2672C00EAC727 /* Views */,
+				6B3325B125D26578007B4DBF /* Extensions.swift */,
+				6B3325B425D26578007B4DBF /* AudioPlayer.swift */,
+				6B3325B525D26578007B4DBF /* AppDelegate.swift */,
+				6B3325B025D26578007B4DBF /* SceneDelegate.swift */,
+				6B33257925D2621A007B4DBF /* Assets.xcassets */,
+				6B33258125D2621A007B4DBF /* Info.plist */,
+				6B33257B25D2621A007B4DBF /* Preview Content */,
+			);
+			path = "Simply Pup Pad";
+			sourceTree = "<group>";
+		};
+		6B33257B25D2621A007B4DBF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B33257C25D2621A007B4DBF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BD3C5C725D2672C00EAC727 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6BD3C5C025D2671500EAC727 /* PupPadView.swift */,
+				6BD3C5C325D2671700EAC727 /* PupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6BD3C5C925D2675D00EAC727 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6BD3C5DA25D2676900EAC727 /* Chase1.m4a */,
+				6BD3C5CF25D2676800EAC727 /* Chase2.m4a */,
+				6BD3C5D025D2676800EAC727 /* Marshall1.m4a */,
+				6BD3C5D725D2676900EAC727 /* Marshall2.m4a */,
+				6BD3C5D325D2676800EAC727 /* Rocky1.m4a */,
+				6BD3C5D225D2676800EAC727 /* Rocky2.m4a */,
+				6BD3C5CB25D2676800EAC727 /* Rubble1.m4a */,
+				6BD3C5CC25D2676800EAC727 /* Rubble2.m4a */,
+				6BD3C5D125D2676800EAC727 /* Ryder1.m4a */,
+				6BD3C5D525D2676800EAC727 /* Ryder2.m4a */,
+				6BD3C5CA25D2676800EAC727 /* Ryder3.m4a */,
+				6BD3C5D925D2676900EAC727 /* Ryder4.m4a */,
+				6BD3C5D425D2676800EAC727 /* Ryder5.m4a */,
+				6BD3C5CD25D2676800EAC727 /* Skye1.m4a */,
+				6BD3C5D825D2676900EAC727 /* Skye2.m4a */,
+				6BD3C5D625D2676900EAC727 /* Zuma1.m4a */,
+				6BD3C5CE25D2676800EAC727 /* Zuma2.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B33256F25D26219007B4DBF /* Simply Pup Pad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B33258425D2621A007B4DBF /* Build configuration list for PBXNativeTarget "Simply Pup Pad" */;
+			buildPhases = (
+				6B33256C25D26219007B4DBF /* Sources */,
+				6B33256D25D26219007B4DBF /* Frameworks */,
+				6B33256E25D26219007B4DBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simply Pup Pad";
+			productName = "Simply Pup Pad";
+			productReference = 6B33257025D26219007B4DBF /* Simply Pup Pad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B33256825D26219007B4DBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					6B33256F25D26219007B4DBF = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = 6B33256B25D26219007B4DBF /* Build configuration list for PBXProject "Simply Pup Pad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B33256725D26219007B4DBF;
+			productRefGroup = 6B33257125D26219007B4DBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B33256F25D26219007B4DBF /* Simply Pup Pad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B33256E25D26219007B4DBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD3C5DF25D2676900EAC727 /* Zuma2.m4a in Resources */,
+				6BD3C5DE25D2676900EAC727 /* Skye1.m4a in Resources */,
+				6BD3C5EB25D2676900EAC727 /* Chase1.m4a in Resources */,
+				6B33257D25D2621A007B4DBF /* Preview Assets.xcassets in Resources */,
+				6BD3C5E225D2676900EAC727 /* Ryder1.m4a in Resources */,
+				6BD3C5E525D2676900EAC727 /* Ryder5.m4a in Resources */,
+				6B33257A25D2621A007B4DBF /* Assets.xcassets in Resources */,
+				6BD3C5E725D2676900EAC727 /* Zuma1.m4a in Resources */,
+				6BD3C5DD25D2676900EAC727 /* Rubble2.m4a in Resources */,
+				6BD3C5E425D2676900EAC727 /* Rocky1.m4a in Resources */,
+				6BD3C5E125D2676900EAC727 /* Marshall1.m4a in Resources */,
+				6BD3C5E325D2676900EAC727 /* Rocky2.m4a in Resources */,
+				6BD3C5E625D2676900EAC727 /* Ryder2.m4a in Resources */,
+				6BD3C5DC25D2676900EAC727 /* Rubble1.m4a in Resources */,
+				6BD3C5E025D2676900EAC727 /* Chase2.m4a in Resources */,
+				6BD3C5EA25D2676900EAC727 /* Ryder4.m4a in Resources */,
+				6BD3C5DB25D2676900EAC727 /* Ryder3.m4a in Resources */,
+				6BD3C5E825D2676900EAC727 /* Marshall2.m4a in Resources */,
+				6BD3C5E925D2676900EAC727 /* Skye2.m4a in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B33256C25D26219007B4DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BD3C5C425D2671700EAC727 /* PupView.swift in Sources */,
+				6B3325BB25D26578007B4DBF /* AppDelegate.swift in Sources */,
+				6B3325B625D26578007B4DBF /* SceneDelegate.swift in Sources */,
+				6B3325B725D26578007B4DBF /* Extensions.swift in Sources */,
+				6B3325BA25D26578007B4DBF /* AudioPlayer.swift in Sources */,
+				6BD3C5C125D2671500EAC727 /* PupPadView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B33258225D2621A007B4DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B33258325D2621A007B4DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B33258525D2621A007B4DBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Simply Pup Pad/Preview Content\"";
+				DEVELOPMENT_TEAM = JXK7JP6WXP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Simply Pup Pad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.SimplyJT.Simply-Pup-Pad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B33258625D2621A007B4DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Simply Pup Pad/Preview Content\"";
+				DEVELOPMENT_TEAM = JXK7JP6WXP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Simply Pup Pad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.SimplyJT.Simply-Pup-Pad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B33256B25D26219007B4DBF /* Build configuration list for PBXProject "Simply Pup Pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B33258225D2621A007B4DBF /* Debug */,
+				6B33258325D2621A007B4DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B33258425D2621A007B4DBF /* Build configuration list for PBXNativeTarget "Simply Pup Pad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B33258525D2621A007B4DBF /* Debug */,
+				6B33258625D2621A007B4DBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B33256825D26219007B4DBF /* Project object */;
+}
